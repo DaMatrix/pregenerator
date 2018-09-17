@@ -1,0 +1,15 @@
+name: Pregenerator
+version: @version@
+main: net.daporkchop.pregenerator.Pregenerator
+
+commands:
+   pregen:
+      description: Pregenerates chunks
+      usage: /pregen <x> <z> <radius> [world]
+      permission: pregen.pregen
+      permission-message: lol noob
+   setworldspawn:
+      description: Sets the world spawn point
+      usage: /setworldspawn [x] [y] [z]
+      permission: pregen.pregen
+      permission-message: lol noob
